@@ -1,0 +1,35 @@
+body {
+    border: solid 5px grey;
+}
+
+.fuente {
+    color: white;
+}
+
+.header {
+    background-color: #52A7F9;
+    height: 100px;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 600px 300px;
+    grid-template-rows: 400px 250px;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main-content {
+    background-color: #6FC041;
+}
+.sidebar {
+    background-color: #B36AE2;
+}
+.twin {
+    background-color: #F3901A;
+}
+.footer {
+    background-color: #0365C0;
+    height: 100px;
+}
